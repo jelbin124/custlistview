@@ -27,7 +27,7 @@ export default function CustInfo() {
             <th>COMPANY</th>
           </tr>
         </thead>
-        <tbody>
+        {/* <tbody>
           {users.map((user, index) => (
             <tr key={index}>
               <td>{user.CUSTNAME}</td>
@@ -36,7 +36,7 @@ export default function CustInfo() {
               <td>{user.Y_1529_0_ESH}</td>
             </tr>
           ))}
-        </tbody>
+        </tbody> */}
       </table>
     </div>
   );
