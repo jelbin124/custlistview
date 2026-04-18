@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
-import MainService from "../service/MainService";
+import React from "react";
+// import React, { useEffect, useState } from "react";
+// import MainService from "../service/MainService";
 
 export default function CustInfo() {
   // const [users, setUsers] = useState([]);
