@@ -2,22 +2,22 @@ import React, { useEffect, useState } from "react";
 import MainService from "../service/MainService";
 
 export default function CustInfo() {
-  const [users, setUsers] = useState([]);
+  // const [users, setUsers] = useState([]);
 
-  useEffect(() => {
-    MainService.getUsers()
-      .then((response) => {
-        console.log("getUsers:", response.data.value);
-        setUsers(response.data.value); // Save data to state
-      })
-      .catch((err) => {
-        console.error("error:", err);
-      });
-  }, []);
+  // useEffect(() => {
+  //   MainService.getUsers()
+  //     .then((response) => {
+  //       console.log("getUsers:", response.data.value);
+  //       setUsers(response.data.value); // Save data to state
+  //     })
+  //     .catch((err) => {
+  //       console.error("error:", err);
+  //     });
+  // }, []);
 
   return (
     <div style={{ padding: "20px" }}>
-      <h2>Customer Information Data List view item</h2>
+      <h2>Customer Information Data List view item check</h2>
       <table border="1" cellPadding="10" cellSpacing="0">
         <thead>
           <tr>
@@ -27,6 +27,14 @@ export default function CustInfo() {
             <th>COMPANY</th>
           </tr>
         </thead>
+          <tbody>
+            <tr>
+              <td>1111</td>
+              <td>jelbin</td>
+              <td>jkb</td>
+              <td>test</td>
+            </tr>
+        </tbody>
         {/* <tbody>
           {users.map((user, index) => (
             <tr key={index}>
