@@ -6,4 +6,6 @@ class MainService {
   }
 }
 
-export default new MainService();
+const mainService = new MainService();
+
+export default mainService;
